@@ -1,0 +1,53 @@
+@import './base.css';
+
+#app {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  display: block;
+  padding: 2rem;
+  font-weight: normal;
+  /* background-color: #0f0; */
+  height: auto;
+  margin-top: 0px;
+}
+
+/* a, 
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+} */
+
+@media (hover: hover) {
+  a:hover {
+    text-align: left;
+    font: normal normal medium 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #21455E;
+    opacity: 1;
+    text-decoration: none;
+  }
+
+  a {
+    text-align: left;
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    margin: 0 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    /* display: flex;
+    place-items: center; */
+  }
+
+  #app {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem; */
+  }
+}
